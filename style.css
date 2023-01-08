@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Nanum+Gothic&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-sticky {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.container::before {
+    content: '';
+    background: url('/river.jpg')center center/cover;
+    position: absolute;
+    opacity: 0.6;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+}
+
+.container {
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-top: 60px;
+    padding: 50px;
+    text-align: center;
+}
+
+.container h2 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.container p {
+    padding: 30px 200px;
+    color: #fff;
+}
+
+/* security-sec */
+
+.security-sec {
+    margin-top: 90px;
+
+}
+
+.security-sec h3 {
+    padding: 0px 60px;
+    /* margin-left:10px ; */
+}
+
+
+svg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 9px;
+    box-shadow: 0px 2px 10px rgb(183, 183, 183);
+}
+
+/* css line animation */
+.anim {
+    display: flex;
+    margin: 6px 0px;
+}
+
+.bubble {
+    background-color: rgb(75, 75, 222);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.line-css {
+    background-color: rgb(75, 75, 222);
+    height: 5px;
+    width: 130px;
+    border-radius: 10px;
+    margin-top: 5px;
+   
+}
+
+/* css line animation end */
+.plans-btn {
+    padding-top: 110px;
+}
+
+.about-row p {
+    /* text-align: center; */
+    color: black;
+    font-weight: 100;
+    font-size: 27px;
+}
+.aside-sec{
+    /* border-color: 2px solid red; */
+}
+
+/* purchase */
+.purchase-heading {
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* footer */
+.footer{
+    margin-top: 5px;
+}
+footer h2{
+    font-size: 15px;
+    padding: 25px ;
+    text-align: center;
+    background-color: rgb(38, 38, 68);
+    color: #fff;
+    box-sizing: border-box;
+}
